@@ -61,7 +61,6 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.WisataView
     public int getItemCount() {
         return arrayListFeature.size();
     }
-
     public class WisataViewHolder extends RecyclerView.ViewHolder {
 
         TextView tv_name;
